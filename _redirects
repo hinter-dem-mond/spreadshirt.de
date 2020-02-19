@@ -13,6 +13,8 @@
 /shop/*        https://shop.spreadshirt.dk/hinterdemmond/:splat              302  Language=dk
 /shop/*        https://shop.spreadshirt.se/hinterdemmond/:splat              302  Language=se
 /shop/*        https://shop.spreadshirt.fi/hinterdemmond/:splat              302  Language=fi
+/shop/*        https://shop.spreadshirt.fr/hinterdemmond/:splat              302  Language=fr
+/shop/*        https://shop.spreadshirt.it/hinterdemmond/:splat              302  Language=it
 
 # Default Redirect
 /shop/*        https://shop.spreadshirt.de/hinterdemmond/:splat              301
