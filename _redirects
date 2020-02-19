@@ -1,11 +1,18 @@
+# Sprachspezifische Redirects 
 /shop/*        https://shop.spreadshirt.fr/hinterdemmond/:splat              302  Country=fr
 /shop/*        https://shop.spreadshirt.it/hinterdemmond/:splat              302  Country=it
-/shop/*        https://shop.spreadshirt.pl/hinterdemmond/:splat              302  Country=pl
-/shop/*        https://shop.spreadshirt.dk/hinterdemmond/:splat              302  Country=dk
 /shop/*        https://shop.spreadshirt.ch/hinterdemmond/:splat              302  Country=ch
 /shop/*        https://shop.spreadshirt.at/hinterdemmond/:splat              302  Country=at
-/shop/*        https://shop.spreadshirt.se/hinterdemmond/:splat              302  Country=se
 /shop/*        https://shop.spreadshirt.fi/hinterdemmond/:splat              302  Country=fi
 /shop/*        https://shop.spreadshirt.be/hinterdemmond/:splat              302  Country=be
+/shop/*        https://shop.spreadshirt.be/hinterdemmond/:splat              302  Country=pl
+/shop/*        https://shop.spreadshirt.be/hinterdemmond/:splat              302  Country=dk
 
+# Länderspezifische Redirects
+/shop/*        https://shop.spreadshirt.pl/hinterdemmond/:splat              302  Language=pl
+/shop/*        https://shop.spreadshirt.dk/hinterdemmond/:splat              302  Language=dk
+/shop/*        https://shop.spreadshirt.se/hinterdemmond/:splat              302  Language=se
+/shop/*        https://shop.spreadshirt.fi/hinterdemmond/:splat              302  Language=fi
+
+# Default Redirect
 /shop/*        https://shop.spreadshirt.de/hinterdemmond/:splat              301
